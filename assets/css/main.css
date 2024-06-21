@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 20px;
+  resize: none;
+  text-align: center;
+}
+
+input,
+textarea {
+  padding: 20px 30px;
+  border: 1px solid red;
+}
+
+button {
+  padding: 20px 30px;
+  width: 250px;
+}
+
+
+li {
+  font-size: 20px;
+  list-style: none;
+}
